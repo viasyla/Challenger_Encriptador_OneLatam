@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Desafio</title>
+    <link rel="icon" type="image/x-icon" href="./imagenes/cifrado-de-datos.png" >
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.svg" alt="Logo de Alura" class="logo">
+        </a>
+    </header>
+<!-- ------------------------------------- -->    
+<main>
+    <section class="encriptador">
+        <textarea class="encriptar" placeholder="Ingrese texto aqui"></textarea>
+        <div class="encriptador__mensaje">
+            <img src="./imagenes/mensaje.svg" alt="Imagen Mensaje" class="imagen_mensaje">
+            <p class="texto__mensaje">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="encriptador__contenedor">
+            <button type="submit" class="btn_encriptar">Encriptar</button>
+            <button type="submit" class="btn_desencriptar">Desencriptar</button>
+        </div>
+    </section>
+    <section class="caja_resultado">
+       <div class="caja_resultado_contenedor">
+            <img src="./imagenes/hombreBuscar.svg" alt="Imagen Hombre Buscando" class="imagen_hombre_buscando">
+            <p class="texto_uno">Ningún mensaje fue encontrado</p>
+            <p class="texto_dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+       </div>
+       <textarea type="mensaje" class="probar" readonly></textarea>
+       <button type="submit" class="btn-copiar">Copiar</button>
+     </section>  
+</main>
+
+<!-- Footer ---- -->   
+<!-- &copy = signo de copyRigth // ------ -->   
+ <footer>
+    <p clase="footer">&copy;  2024 - Encriptador de Texto - Desarrollado por Sylvia Albornoz.</p>
+ </footer>
+
+
+    <script src="app.js"></script>    
+</body>
+</html>
